@@ -1,0 +1,19 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "start": "pulp run",
+    "test": "NODE_PATH=output/ mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
